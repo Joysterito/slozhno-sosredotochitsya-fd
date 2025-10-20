@@ -63,42 +63,38 @@
 
 .main {
   padding: 40px 10px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 50px;
 }
 
 .main__content {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 20px;
   font-weight: 700;
   font-size: 18px;
-  line-height: 23.4px;
+  line-height: 23px;
   color: var(--red);
 }
 
-.cards__text {
+.card__text {
   font-weight: 400;
   color: var(--pink);
 }
 
-.cards__text {
+.card__text {
   padding-top: 10px;
 }
 
-.cards__link {
+.card__link {
   text-shadow: 2px 2px var(--red);
   text-decoration: none;
 }
 
-.cards__link:hover {
+.card__link:hover {
   border-bottom: 1px solid var(--pink);
 }
 
-.cards__link:focus-visible {
+.card__link:focus-visible {
   outline: 1px solid var(--pink);
 }
-
-
 
