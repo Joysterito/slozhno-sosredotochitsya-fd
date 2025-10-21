@@ -56,7 +56,10 @@
   border: 1px solid transparent;
   text-transform: lowercase;
   padding: 1px 13px;
-  line-height: 23px;
+  line-height: 23.4px;
+  font-size: 18px;
+  min-height: 26px;
+  min-width: 70px;
 }
 
 .header__theme-menu-button_active {
@@ -86,7 +89,7 @@
   align-self: center;
   font-weight: 700;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 23.4px;
   max-width: 364px;
 }
 
@@ -101,7 +104,7 @@
   gap: 20px;
   font-weight: 700;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 23.4px;
 }
 
 .main__title {
@@ -114,6 +117,10 @@
 .main__rules {
   display: grid;
   gap: 20px;
+}
+
+.main__content_name_gallery {
+  gap: 10px;
 }
 
 .cards {
@@ -186,6 +193,7 @@
 
   .main {
     gap: 80px;
+    padding: 60px 20px;
   }
 
   .main__content {
@@ -259,7 +267,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     align-items: start;
   }
-  
+
+  .main__content_name_gallery {
+    gap: 20px;
+  }
+
   .gallery {
     grid-template-rows: 260px 315px 433px;
   }
