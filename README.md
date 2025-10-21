@@ -1,0 +1,1 @@
+git@github.com:Joysterito/slozhno-sosredotochitsya-fd.git
