@@ -259,6 +259,10 @@
     max-width: 491px;
   }
 
+  .main__content .cards {
+    min-width: 649px;
+  }
+
   .main__content_name_concentration .main__title {
     max-width: 315px;
   }
@@ -266,6 +270,10 @@
   .main__content_name_concentration .cards {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: start;
+  }
+
+  .main__rules {
+    min-width: 649px;
   }
 
   .main__content_name_gallery {
