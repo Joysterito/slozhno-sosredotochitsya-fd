@@ -212,6 +212,7 @@
 
   .main__content_name_gallery {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .gallery {
