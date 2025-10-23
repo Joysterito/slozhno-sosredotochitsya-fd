@@ -60,6 +60,7 @@
   font-size: 18px;
   height: 26px;
   width: 70px;
+  transition: .2s ease-in-out;
 }
 
 .header__theme-menu-button_active {
