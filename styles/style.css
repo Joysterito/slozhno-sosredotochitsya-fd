@@ -56,10 +56,10 @@
   border: 1px solid transparent;
   text-transform: lowercase;
   padding: 1px 13px;
-  line-height: 23.4px;
+  line-height: 1;
   font-size: 18px;
-  min-height: 26px;
-  min-width: 70px;
+  height: 26px;
+  width: 70px;
 }
 
 .header__theme-menu-button_active {
@@ -136,6 +136,7 @@
 .card__text {
   font-weight: 400;
   color: var(--text-color);
+  line-height: 23.4px;
 }
 
 .card__link {
@@ -214,7 +215,6 @@
 
   .gallery {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 192px 230px 318px;
     gap: 20px;
   }
 
@@ -249,6 +249,7 @@
   .header__theme-menu {
     justify-self: center;
     align-self: start;
+    padding-left: 20px;
   }
 
   .header__theme-menu-list {
@@ -278,9 +279,5 @@
 
   .main__content_name_gallery {
     gap: 20px;
-  }
-
-  .gallery {
-    grid-template-rows: 260px 315px 433px;
   }
 }
